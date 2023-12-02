@@ -33,7 +33,7 @@ def main():
     sign = input("Enter a mathematical sign (+,-,*,/,%):")
 
     # Using if statement to check if mathematical sign is valid.
-    # If it is valid then their numbers wil be converted into decimals and error check using a try catch.
+    # If it is valid then their numbers will be converted into decimals and error check using a try catch.
     if sign == "+" or sign == "-" or sign == "*" or sign == "/" or sign == "%":
         # Using a try catch to catch any errors.
         # Convert number1 and number2 into decimals.
@@ -54,7 +54,7 @@ def main():
         # Catching any errors.
         except:
             print("Invalid number.")
-    # Using else statement, to display error message when the mathematical sign is invalid.
+    # Using else statement, to display an error message when the mathematical sign is invalid.
     else:
         print("{} is an invalid mathematical sign.".format(sign))
 
